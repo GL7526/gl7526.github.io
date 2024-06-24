@@ -1,0 +1,42 @@
+html {
+    font-size: 16px; /* px means "pixels": the base font size is now 16 pixels high */
+    font-family: "Montserrat"; /* this should be the rest of the output you got from Google Fonts */
+    
+    background-color: #c9cdd1;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+p,
+li {
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 1px;
+}
+
+#taiyaki-hat {
+    display: block;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: 0 auto;
+    width: 10%;
+}
+
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #ff9500;
+    padding: 10px 20px 20px 20px;
+    border: 5px solid black;
+  }
+
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    /* color: #000000; */
+    /* text-shadow: 3px 3px 1px black; */
+}
+
