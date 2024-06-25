@@ -10,7 +10,7 @@ myImage.onclick = () => {
 };
 
 let myButton = document.querySelector("button");
-let myHeading = document.querySelector("h1");
+let afterwords = document.getElementById("afterwords");
 
 function setUserName() {
   const myName = prompt("Please enter your name.");
@@ -18,7 +18,7 @@ function setUserName() {
     setUserName();
   } else {
     localStorage.setItem("name", myName);
-    myHeading.textContent = `Hi ${myName}, I love taiyaki!!!`;
+    afterwords.textContent = `Hi ${myName}! Thanks for reading!`;
   }
 }
 
